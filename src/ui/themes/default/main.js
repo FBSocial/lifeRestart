@@ -17,9 +17,10 @@ export default class Main extends ui.view.DefaultTheme.MainUI {
     }
 
     init() {
-        this.btnDiscord.visible =
-        this.btnAchievement.visible =
-        this.btnThanks.visible = !!core.times;
+        this.btnDiscord.visible = false;
+        this.btnAchievement.visible = true;
+        this.btnThanks.visible = false;
+        this.btnGithub.visible = false;
         const text = this.labSubTitle.text;
         this.labSubTitle.text = ' ';
         this.labSubTitle.text = text;

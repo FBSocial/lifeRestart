@@ -32,7 +32,7 @@ export default ({
     UI_Remake: '↻立即重开',
     UI_Thanks: '感谢',
     UI_Achievement: '成就',
-    UI_Cyber_Theme_Art_Design: 'UI 设计 by 晰晰',
+    UI_Cyber_Theme_Art_Design: '',
 
     UI_Title_Talent: '天赋抽卡',
     UI_Talent_Draw: '10连抽！',
