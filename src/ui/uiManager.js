@@ -35,17 +35,11 @@ export default class UIManager {
         this.#dialogMask.on(Laya.Event.CLICK, this, ()=>{
             this.#dialogStack[this.#dialogStack.length - 1]?.close?.();
         })
-        this.#viewLayer.top = 60;
+        this.#viewLayer.top = 160;
         this.#viewLayer.bottom = 40;
-    
-        this.#dialogLayer.top = 60;
-        this.#dialogLayer.bottom = 40;
-    
-        this.#popupLayer.top = 60;
+
+        this.#popupLayer.top = 160;
         this.#popupLayer.bottom = 40;
-    
-        this.#dialogMask.top = 60;
-        this.#dialogMask.bottom = 40;
     }
 
     static #instance = {};
