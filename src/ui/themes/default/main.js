@@ -21,6 +21,7 @@ export default class Main extends ui.view.DefaultTheme.MainUI {
         this.btnAchievement.visible = true;
         this.btnThanks.visible = false;
         this.btnGithub.visible = false;
+        this.btnSaveLoad.visible = false;
         const text = this.labSubTitle.text;
         this.labSubTitle.text = ' ';
         this.labSubTitle.text = text;

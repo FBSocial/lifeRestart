@@ -34,5 +34,6 @@ export default class CyberMain extends ui.view.CyberTheme.CyberMainUI {
         this.btnAchievement.visible = true;
         this.btnThanks.visible = false;
         this.btnGithub.visible = false;
+        this.btnSaveLoad.visible = false;
     }
 }
